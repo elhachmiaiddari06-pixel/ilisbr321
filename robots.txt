@@ -1,0 +1,19 @@
+# robots.txt pour The Golden Pearl
+# Permet à tous les moteurs de recherche d'indexer le site
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://iliass123.github.io/thegoldenpearl/sitemap.xml
+
+# Googlebot spécifique
+User-agent: Googlebot
+Allow: /
+
+# Images
+User-agent: Googlebot-Image
+Allow: /
+
+# Priorités crawl
+Crawl-delay: 0
